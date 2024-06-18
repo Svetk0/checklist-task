@@ -1,0 +1,24 @@
+:root {
+    --background-color: #3579F5;
+    --background-color-alt: #2364DB;
+
+    --color-alt: #4777ED;
+    --color-main:  #FFFFFF;
+    --color-light: #FFFFFF;
+    --color-light-transparent: #ffffff80;
+
+    --button-color-light: #F4F8FF;
+
+    --border-progress-bar-empty: 1px solid var(--color-light-transparent);
+    --border-progress-bar: 2px solid var(--color-light);
+
+    --border-button-active: 1px solid var(--color-light);
+
+    --border-radius: 10px;
+    --border-radius-small: 6px;
+    --border-radius-big:40px;
+
+    --font-family-base: 'Inter', sans-serif;
+  
+    --transition-duration: 0.2s;
+  }

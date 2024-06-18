@@ -1,0 +1,67 @@
+.checklist {
+    &__container {
+        width: 743px;
+        border: none;
+        border-radius: var(--border-radius);
+        padding: 16px 18px 16px 22px;
+        background-color: var(--background-color);
+    }
+
+    &__inner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      
+    }
+
+    &__button {
+        margin-left: auto;
+        align-self: center;
+        background-color: var(    --button-color-light);
+        color: var(--color-alt);
+
+        &:hover {
+            background-color: var(   --background-color-alt);
+            color: var(    --color-light);
+            border: var( --border-button-active);
+           
+        }
+     }
+}
+
+.content {
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        padding-right: 10px;
+        gap: 4px;
+    }
+
+    &__category {
+        width: fit-content;
+        padding: 0 10px;
+        background-color: var(--background-color-alt);
+        border-radius: var(--border-radius-big);
+    }
+
+    &__title {
+        font-size: 15px;
+        line-height: 20px;
+        font-style: normal;
+    }
+}
+
+
+
+
