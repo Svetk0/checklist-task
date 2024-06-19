@@ -7,10 +7,12 @@
 
 
 
+`Progress bar`
+
 1. Анимация блока "progress-bar" выполнена условно и не отражает заданных текстовых значений макета.
 
 2. Переменная выполненного прогресса задается в файле
-##### *`"./styles/blocks/_progress-bar.scss" `* 
+##### `"./styles/blocks/_progress-bar.scss" `
 
 ```
 { --progress-value: 80; }  
